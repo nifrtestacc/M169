@@ -12,7 +12,7 @@
 
 Eine ältere Moodle-Instanz muss auf die aktuelle Version als Docker-Container migriert werden, inklusive aller Daten. Dies erfolgt im Rahmen des Modulprojekts und wird in mehreren Schritten durchgeführt.
 
-## 📦 2 Anforderungen
+## 📦 2 Installation
 
 ### Git installieren
 
