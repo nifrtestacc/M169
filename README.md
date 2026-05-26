@@ -1,5 +1,5 @@
 <div align="left">
-  <img src="https://github.com/luccaa79/m169/blob/main/img/titele.png" />
+  <img src="https://github.com/luccaa79/M169/blob/main/img/titel.png" />
 </div>
 
 [![](https://img.shields.io/badge/Luca_Vatrella-FF7F50?style=for-the-badge)](https://github.com/luccaa79)
