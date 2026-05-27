@@ -1,4 +1,4 @@
-FROM moodlehq/moodle-php-apache:7.4
+FROM moodlehq/moodle-php-apache:8.2
 
 LABEL maintainer="Kubilay Yildiz"
 LABEL version="1.0."
