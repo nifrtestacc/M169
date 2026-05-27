@@ -65,6 +65,8 @@ gum style --border rounded --padding "1 2" --width $((WIDTH + 6)) <<< "$output"
 choice=$(gum choose --header "Was moechtest du tun?" \
   "[1] Moodle starten" \
   "[2] Moodle stoppen" \
+  "[4] Backup erstellen" \
+  "[5] Backup wiederherstellen" \
   "[3] Beenden")
 
 case "$choice" in
@@ -77,6 +79,12 @@ case "$choice" in
     ;;
   "[2] Moodle stoppen")
     (cd "$INSTALL_DIR" && docker compose down)
+    ;;
+  "[4] Backup erstellen")
+    sudo "$INSTALL_DIR/tools/moodle-backup/moodle-backup.sh"
+    ;;
+  "[5] Backup wiederherstellen")
+    sudo "$INSTALL_DIR/tools/moodle-backup/moodle-restore.sh"
     ;;
   "[3] Beenden")
     echo "Auf Wiedersehen!"
