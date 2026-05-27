@@ -1,6 +1,6 @@
 services:
   db:
-    image: mariadb:latest
+    image: mariadb:10.6
     container_name: ${CONTAINER_DB}
     restart: always
     environment:
