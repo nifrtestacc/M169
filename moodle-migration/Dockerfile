@@ -1,7 +1,7 @@
-FROM moodlehq/moodle-php-apache:8.2
+FROM moodlehq/moodle-php-apache:7.4
 
 # Maintainer information
-LABEL maintainer="Luca Vatrella <luca.vatrella@edu.gbssg.ch>"
+LABEL maintainer="Luca Vatrella"
 LABEL version="1.0."
 
 RUN apt-get update && \
